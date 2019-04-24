@@ -18,6 +18,6 @@ for (i = 0; i < acc.length; i++) {
             panel.style.maxHeight = null;
         } else {
             panel.style.maxHeight = panel.scrollHeight + "px";
-        }
+        } 
     });
 }
