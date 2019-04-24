@@ -1,0 +1,70 @@
+.accordion{
+    background-color: #8085b5;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: 1px solid white;
+    transition: 0.4s; /* Voor hover effect */
+    font: 20px lato, sans-serif;
+    
+}
+
+.accordion:after{
+    content: '\02795'; /*Unicode voor het plusteken*/
+    font-size: 15px;
+    color: white;
+}
+
+.panel{
+    padding: 0 18px;
+    background-color: white;
+    overflow: hidden; /*    Bij default is hij verborgen en met Javascript wordt hij aangeroepen.*/
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    margin-left: 2rem;
+    background-color: #d6d6e7; 
+}
+
+p{
+    font: 16px, lato, sans-serif;
+}
+
+.active, .accordion:hover{
+    background-color: #565e9e;
+    
+}
+
+.active:after{
+    content: '\2796' /*Unicode voor het minteken*/
+}
+
+article img {
+    height: 10rem;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+article h1 {
+    font-size: 24px;
+}
+
+article h2{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+article h3{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+article{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-column-gap: 10px;
+    margin: 2rem 2rem 0 2rem;
+    border-radius: 0.2rem;
+}
+
