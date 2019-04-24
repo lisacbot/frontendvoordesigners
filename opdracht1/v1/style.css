@@ -68,3 +68,6 @@ article{
     border-radius: 0.2rem;
 }
 
+.hidden{
+    display: none;
+}

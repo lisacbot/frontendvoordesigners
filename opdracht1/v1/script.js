@@ -9,11 +9,6 @@ for (i = 0; i < acc.length; i++) {
         
         /*Toggle tussen het wel en niet laten zien van het actieve panel*/
         var panel = this.nextElementSibling;
-//        if (panel.style.display === "block") {
-//            panel.style.display = "none";
-//        } else {
-//            panel.style.display = "block";
-//        }
         if (panel.style.maxHeight) {
             panel.style.maxHeight = null;
         } else {
@@ -21,3 +16,10 @@ for (i = 0; i < acc.length; i++) {
         } 
     });
 }
+
+var button = document.querySelector('.druk');
+var hidden = document.querySelector('.hidden');
+
+button.addEventListener('click', function(){
+    hidden.classList.toggle('hidden');
+});
