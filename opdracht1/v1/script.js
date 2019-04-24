@@ -17,9 +17,9 @@ for (i = 0; i < acc.length; i++) {
     });
 }
 
-var button = document.querySelector('.druk');
-var hidden = document.querySelector('.hidden');
-
-button.addEventListener('click', function(){
-    hidden.classList.toggle('hidden');
-});
+//var button = document.querySelector('.druk');
+//var hidden = document.querySelector('.hidden');
+//
+//button.addEventListener('click', function(){
+//    hidden.classList.toggle('hidden');
+//});

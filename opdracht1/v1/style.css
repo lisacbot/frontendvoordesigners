@@ -1,20 +1,24 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .accordion{
-    background-color: #8085b5;
-    color: white;
+    background-color: white;
+    box-shadow: 4px 4px 58px -36px rgba(0,0,0.86);
+    color: black;
     cursor: pointer;
     padding: 18px;
     width: 100%;
     text-align: left;
-    border: 1px solid white;
     transition: 0.4s; /* Voor hover effect */
     font: 20px lato, sans-serif;
     
 }
 
 .accordion:after{
-    content: '\02795'; /*Unicode voor het plusteken*/
-    font-size: 15px;
-    color: white;
+    content: '\032D'; /*Unicode voor het plusteken*/
+    font-size: 40px;
 }
 
 .panel{
@@ -24,7 +28,8 @@
     max-height: 0;
     transition: max-height 0.2s ease-out;
     margin-left: 2rem;
-    background-color: #d6d6e7;  
+    background-color: white; 
+    box-shadow: 4px 4px 58px -36px rgba(0,0,0.86);
 }
 
 p{
@@ -32,12 +37,13 @@ p{
 }
 
 .active, .accordion:hover{
-    background-color: #565e9e;
+    background-color: rebeccapurple;
+    color: white;
     
 }
 
 .active:after{
-    content: '\2796' /*Unicode voor het minteken*/
+    content: '\032C'; /*Unicode voor het minteken*/
 }
 
 article img {
@@ -53,6 +59,7 @@ article h1 {
 article h2{
     font-size: 24px;
     font-weight: 400;
+    text-align: right;
 }
 
 article h3{
@@ -62,12 +69,14 @@ article h3{
 
 article{
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 200px 500px 100px;
     grid-column-gap: 10px;
     margin: 2rem 2rem 0 2rem;
     border-radius: 0.2rem;
 }
 
+/*
 .hidden{
     display: none;
-}
+    
+}*/
