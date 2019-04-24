@@ -22,7 +22,6 @@ h1{
     box-shadow: 4px 4px 58px -36px rgba(0, 0, 0.86);
     color: black;
     cursor: pointer;
-    padding: 18px;
     width: 100%;
     text-align: left;
     transition: 0.4s;
@@ -30,8 +29,8 @@ h1{
     font: 20px lato, sans-serif;
     margin: 2rem 2rem 0 2rem;
     display: grid;
-    grid-template-columns: 200px 500px 100px;
-    grid-column-gap: 10px;
+    grid-template-columns: 30% 45% 10%;
+    grid-column-gap: 1.4rem;
     /*    margin: 2rem 2rem 0 2rem;*/
     border-radius: 0.2rem;
 
@@ -53,6 +52,16 @@ h1{
     margin: 0 2rem 2rem 2rem;
     background-color: white;
     box-shadow: 4px 4px 58px -36px rgba(0, 0, 0.86);
+    font: 14px lato, sans-serif;
+    font-weight: 100;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.plattegrond{
+    width: 100%;
+    padding: 1rem;
 }
 
 p {
@@ -66,18 +75,34 @@ p {
 
 }
 
+
 .active:after {
     content: '\032C';
     /*Unicode voor het minteken*/
 }
 
 article img {
-    height: 10rem;
-    width: 11rem;
+    width: 100%;
+    border-radius: .2rem 0 0 .2rem;
     grid-row-start: 1;
     grid-row-end: 4;
-    
+    left: -px;
+    top: px;
+    object-fit: cover;
+    height: 10rem;
 }
+
+/*
+article img {
+    width: 100%;
+    border-radius: 0.8rem .8rem 0 0;
+    position: absolute;
+    top: px;
+    left: -px;
+    height: 9rem;
+    object-fit: cover;
+}
+*/
 
 article h2 {
     font-size: 24px;
@@ -92,9 +117,9 @@ article h3 {
 article h4 {
     font-size: 18px;
     font-weight: 100;
+    
 }
 
-article {}
 
 /*
 .hidden{
