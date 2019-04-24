@@ -1,79 +1,100 @@
-main{
+* {
+    box-sizing: border-box;
+
+}
+
+main {
     display: flex;
     flex-wrap: wrap;
 }
 
-.accordion{
+h1{
+    font: 30px lato, sans-serif;
+    font-weight: 700;
+    color: rebeccapurple;
+    padding: 2rem 2rem 0 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.accordion {
     background-color: white;
-    box-shadow: 4px 4px 58px -36px rgba(0,0,0.86);
+    box-shadow: 4px 4px 58px -36px rgba(0, 0, 0.86);
     color: black;
     cursor: pointer;
     padding: 18px;
     width: 100%;
     text-align: left;
-    transition: 0.4s; /* Voor hover effect */
+    transition: 0.4s;
+    /* Voor hover effect */
     font: 20px lato, sans-serif;
-    
+    margin: 2rem 2rem 0 2rem;
+    display: grid;
+    grid-template-columns: 200px 500px 100px;
+    grid-column-gap: 10px;
+    /*    margin: 2rem 2rem 0 2rem;*/
+    border-radius: 0.2rem;
+
 }
 
-.accordion:after{
-    content: '\032D'; /*Unicode voor het plusteken*/
+.accordion:after {
+    content: '\032D';
+    /*Unicode voor het plusteken*/
     font-size: 40px;
 }
 
-.panel{
+.panel {
     padding: 0 18px;
     background-color: white;
-    overflow: hidden; /*    Bij default is hij verborgen en met Javascript wordt hij aangeroepen.*/
+    overflow: hidden;
+    /*    Bij default is hij verborgen en met Javascript wordt hij aangeroepen.*/
     max-height: 0;
     transition: max-height 0.2s ease-out;
-    margin-left: 2rem;
-    background-color: white; 
-    box-shadow: 4px 4px 58px -36px rgba(0,0,0.86);
+    margin: 0 2rem 2rem 2rem;
+    background-color: white;
+    box-shadow: 4px 4px 58px -36px rgba(0, 0, 0.86);
 }
 
-p{
+p {
     font: 16px, lato, sans-serif;
 }
 
-.active, .accordion:hover{
+.active,
+.accordion:hover {
     background-color: rebeccapurple;
     color: white;
-    
+
 }
 
-.active:after{
-    content: '\032C'; /*Unicode voor het minteken*/
+.active:after {
+    content: '\032C';
+    /*Unicode voor het minteken*/
 }
 
 article img {
     height: 10rem;
+    width: 11rem;
     grid-row-start: 1;
     grid-row-end: 4;
+    
 }
 
-article h1 {
+article h2 {
     font-size: 24px;
 }
 
-article h2{
+article h3 {
     font-size: 24px;
     font-weight: 400;
     text-align: right;
 }
 
-article h3{
+article h4 {
     font-size: 18px;
     font-weight: 100;
 }
 
-article{
-    display: grid;
-    grid-template-columns: 200px 500px 100px;
-    grid-column-gap: 10px;
-    margin: 2rem 2rem 0 2rem;
-    border-radius: 0.2rem;
-}
+article {}
 
 /*
 .hidden{
