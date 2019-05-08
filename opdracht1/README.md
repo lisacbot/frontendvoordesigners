@@ -32,7 +32,7 @@ Dit principe beschrijft de beste manier waarop er visuele hiërarchie gecreëerd
 
 In mijn ontwerp heb ik wederop rekening gehouden met dit principe. Ik heb voor consistentie gezorgt wat veel rust creëerd. Bovendien heb ik onderscheidt gemaakt tussen elementen door de dikte en grootte hiervan te wisselen. Belangrijke informatie zoals de titel is groot en dikker, minder belangrijkere informatie valt minder op. 
 
-## Versie 1
+## Versie 1.0
 Ik ben constent begonnen met het plaatsen van blokken. Deze blokken bevatten de eerst zichtbare content van de woningen. Wanneer er over deze blokken gehoverd wordt veranderd de kleur. Wordt erop geklikt, dan klapt het blok uit én veranderd de kleur weer. Het zijn allemaal accordeons. 
 
 
@@ -43,7 +43,25 @@ Ik ben constent begonnen met het plaatsen van blokken. Deze blokken bevatten de 
 ![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht1/v1/img/Schermafbeelding%202019-05-08%20om%2010.01.18.png?raw=true "Screenshot 2")
 
 
-## Versie 2
-Wat het aller eerste opvalt is de kleur die anders is. Ik
 
+## Definitief
+Wat het aller eerste opvalt is de kleur die anders is. Ik heb de kleuren omgedraaid en het effect is groot. Er is meer rust. Bovendien heb ik meer gewerkt aan de uitlijning. Ik heb met Flexbox en Grids ervoor gezorgt dat de content goed geplaatst is. 
 
+**Accordeon ingeklapt:**
+![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht1/v1/img/Schermafbeelding%202019-05-08%20om%2011.09.21.png?raw=true "Screenshot 1")
+
+**Accordeon uitgeklapt:**
+![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht1/v1/img/Schermafbeelding%202019-05-08%20om%2011.09.29.png?raw=true "Screenshot 2")
+
+### Evaluatie Javascript
+Het JS script onderdeel vond ik lastig. Ik heb aan het begin veel op internet opgezocht om van start te kunnen. Toen ik in week twee in de les zat heb ik samen met Iris naar de opdracht gekeken. Zij heeft namelijk de zelfde case gekozen en had de JS heel anders gemaakt.
+
+Ze had me geholpen met het volgende stukje code:
+'''
+var button = document.querySelector('.druk');
+var hidden = document.querySelector('.hidden');
+
+button.addEventListener('click', function(){
+    hidden.classList.toggle('hidden');
+});
+'''
