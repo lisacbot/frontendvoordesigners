@@ -35,6 +35,9 @@ In mijn ontwerp heb ik wederop rekening gehouden met dit principe. Ik heb voor c
 ## Versie 1.0
 Ik ben constent begonnen met het plaatsen van blokken. Deze blokken bevatten de eerst zichtbare content van de woningen. Wanneer er over deze blokken gehoverd wordt veranderd de kleur. Wordt erop geklikt, dan klapt het blok uit én veranderd de kleur weer. Het zijn allemaal accordeons. 
 
+### Uitkomst test
+Het ontwerp is niet goed uitgelijnd. De content blokken lopen namelijk rechts het scherm uit. Daar moet nog aan gewerkt worden. Bovendien moet de plaatsing van de content beter. Het plusje staat op een hele andere hoogte, ook is het een andere kleur. 
+
 **Accordeon ingeklapt:**
 ![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht1/v1/img/Schermafbeelding%202019-05-08%20om%2010.01.11.png?raw=true "Screenshot 1")
 
@@ -42,7 +45,9 @@ Ik ben constent begonnen met het plaatsen van blokken. Deze blokken bevatten de 
 ![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht1/v1/img/Schermafbeelding%202019-05-08%20om%2010.01.18.png?raw=true "Screenshot 2")
 
 ## Definitief
-Wat het aller eerste opvalt is de kleur die anders is. Ik heb de kleuren omgedraaid en het effect is groot. Er is meer rust. Bovendien heb ik meer gewerkt aan de uitlijning. Ik heb met Flexbox en Grids ervoor gezorgt dat de content goed geplaatst is. 
+Wat het aller eerste opvalt is de kleur die anders is. Ik heb de kleuren omgedraaid en zo is er meer rust. Bovendien heb ik meer gewerkt aan de uitlijning. Ik heb met Flexbox en Grids ervoor gezorgt dat de content goed geplaatst is. 
+
+Het is mij helaas nog niet gelukt om het pijltje op de goede positie te krijgen. Deze zou ik graag aan de rechter kant willen uitlijnen. Dit is iets waar ik in de verdere versies aan zou willen werken.
 
 **Accordeon ingeklapt:**
 ![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht1/v1/img/Schermafbeelding%202019-05-08%20om%2011.09.21.png?raw=true "Screenshot 1")
