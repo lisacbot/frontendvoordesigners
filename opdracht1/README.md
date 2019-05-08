@@ -23,7 +23,14 @@ Ik heb een lijst gevonden studentenhuizen gemaakt. In deze lijst kunnen er detai
 
 ## Priniples of User Interface Design
 ### Nr 04 - Keep user in control
-"Humans are most conformable when they feel in control of themselves and their environment."
+Dit principe beschrijft dat gebruikers in controle moeten blijven. "Humans are most conformable when they feel in control of themselves and their environment." Dan voelen zij zich namelijk het meest confortabel. Het is het best om zo veel mogelijk informatie aan de gebruiker te geven om verwarring te voorkomen. Als je dit doet, dan gebeurt er dat. De gebruiker moet in controle blijven.
+
+In mijn ontwerp heb ik ook rekening gehouden met dit principe. De gebruiker is namelijk in controle. Wanneer er op een woning geklikt kan worden komt er meer informatie te voorschijn. Over deze actie beslist de gebruiker helemaal. Bovendien wordt er door middel van het pijltje de gebruiker duidelijk gemaakt dat er meer informatie zichtbaar is. Op deze manier krijgt hij/zij meer informatie over wat er komen gaat.
+
+### Nr 11 - Strong visual hierarchies work best
+Dit principe beschrijft de beste manier waarop er visuele hiërarchie gecreëerd wordt. Dit gebeurd wanneer gebruikers het zelfde item steeds in de zelfde volgorde te zien krijgen. De dikte en grootte van elemementen speelt hier een hele grote rol. Een slappe visuele hiërarchie zorgt voor verwarring en een opgepropt gevoel.
+
+In mijn ontwerp heb ik wederop rekening gehouden met dit principe. Ik heb voor consistentie gezorgt wat veel rust creëerd. Bovendien heb ik onderscheidt gemaakt tussen elementen door de dikte en grootte hiervan te wisselen. Belangrijke informatie zoals de titel is groot en dikker, minder belangrijkere informatie valt minder op. 
 
 
 
