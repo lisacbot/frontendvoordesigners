@@ -1,7 +1,7 @@
 # Frontend voor designers - Opdracht 1
 [Code demo opdracht 1](https://github.com/lisacbot/frontendvoordesigners/tree/master/opdracht1/v1)
 
-# De opdracht 
+## De opdracht 
 Ik heb een lijst gevonden studentenhuizen gemaakt. In deze lijst kunnen er details worden bekeken over de kamer om te bepalen of deze geschikt. Het was de bedoeling dat ik het mooi zou vormgeven en een goed werkende interface zou neerzetten. 
 
 ## Use Case
