@@ -57,11 +57,11 @@ Wat het aller eerste opvalt is de kleur die anders is. Ik heb de kleuren omgedra
 Het JS script onderdeel vond ik lastig. Ik heb aan het begin veel op internet opgezocht om van start te kunnen. Toen ik in week twee in de les zat heb ik samen met Iris naar de opdracht gekeken. Zij heeft namelijk de zelfde case gekozen en had de JS heel anders gemaakt.
 
 Ze had me geholpen met het volgende stukje code:
-'''
+```
 var button = document.querySelector('.druk');
 var hidden = document.querySelector('.hidden');
 
 button.addEventListener('click', function(){
     hidden.classList.toggle('hidden');
 });
-'''
+```
