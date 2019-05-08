@@ -36,10 +36,10 @@ In mijn ontwerp heb ik wederop rekening gehouden met dit principe. Ik heb voor c
 Ik ben constent begonnen met het plaatsen van blokken. Deze blokken bevatten de eerst zichtbare content van de woningen. Wanneer er over deze blokken gehoverd wordt veranderd de kleur. Wordt erop geklikt, dan klapt het blok uit én veranderd de kleur weer. Het zijn allemaal accordeons. 
 
 
-*Accordeon ingeklapt:*
+**Accordeon ingeklapt:**
 ![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht1/v1/img/Schermafbeelding%202019-05-08%20om%2010.01.11.png?raw=true "Screenshot 1")
 
-*Accordeon uitgeklapt:*
+**Accordeon uitgeklapt:**
 ![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht1/v1/img/Schermafbeelding%202019-05-08%20om%2010.01.18.png?raw=true "Screenshot 2")
 
 
