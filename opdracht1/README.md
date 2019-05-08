@@ -35,14 +35,11 @@ In mijn ontwerp heb ik wederop rekening gehouden met dit principe. Ik heb voor c
 ## Versie 1.0
 Ik ben constent begonnen met het plaatsen van blokken. Deze blokken bevatten de eerst zichtbare content van de woningen. Wanneer er over deze blokken gehoverd wordt veranderd de kleur. Wordt erop geklikt, dan klapt het blok uit én veranderd de kleur weer. Het zijn allemaal accordeons. 
 
-
 **Accordeon ingeklapt:**
 ![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht1/v1/img/Schermafbeelding%202019-05-08%20om%2010.01.11.png?raw=true "Screenshot 1")
 
 **Accordeon uitgeklapt:**
 ![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht1/v1/img/Schermafbeelding%202019-05-08%20om%2010.01.18.png?raw=true "Screenshot 2")
-
-
 
 ## Definitief
 Wat het aller eerste opvalt is de kleur die anders is. Ik heb de kleuren omgedraaid en het effect is groot. Er is meer rust. Bovendien heb ik meer gewerkt aan de uitlijning. Ik heb met Flexbox en Grids ervoor gezorgt dat de content goed geplaatst is. 
@@ -65,3 +62,7 @@ button.addEventListener('click', function(){
     hidden.classList.toggle('hidden');
 });
 ```
+
+Ik snapte dit stukje code in eerste instantie beter dan mijn eigen. Het is erg kort en simpel. Echter merkte ik dat  met deze code ik maar één accordeon aan kon sturen. Ik moest toen nog een oplossing vinden voor de anderen. Ik ben toen vervolgens verder gaan werken aan mijn eigen code. Omdat deze in eerste instantie al werkte. 
+
+Ik heb dus wel verschillende soorten oplossingen gevonden voor mijn probleem en hiermee gespeeld.
