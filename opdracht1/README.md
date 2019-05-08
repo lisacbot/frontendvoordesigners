@@ -32,5 +32,8 @@ Dit principe beschrijft de beste manier waarop er visuele hiërarchie gecreëerd
 
 In mijn ontwerp heb ik wederop rekening gehouden met dit principe. Ik heb voor consistentie gezorgt wat veel rust creëerd. Bovendien heb ik onderscheidt gemaakt tussen elementen door de dikte en grootte hiervan te wisselen. Belangrijke informatie zoals de titel is groot en dikker, minder belangrijkere informatie valt minder op. 
 
+# Versie 1
+opdracht1/v1/img/Schermafbeelding 2019-05-08 om 10.01.11.png
+
 
 
