@@ -1,3 +1,5 @@
+// Bron: https://www.youtube.com/watch?v=XfLMhmlGvEs
+
 var acc = document.getElementsByClassName("accordion");
 var i;
 
@@ -17,9 +19,4 @@ for (i = 0; i < acc.length; i++) {
     });
 }
 
-//var button = document.querySelector('.druk');
-//var hidden = document.querySelector('.hidden');
-//
-//button.addEventListener('click', function(){
-//    hidden.classList.toggle('hidden');
-//});
+
