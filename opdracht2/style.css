@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-family: monospace;
+}
+
+/*Slideshow*/
+.slideshow {
+    position: relative;
+    margin: auto;
+    align-content: center;
+}
+
+img { 
+    height: 40em;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.slider {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 105%;
+    width: auto;
+    padding: 2em;
+    align-items: center;
+}
+
+.prev {
+    left: 40%
+}
+
+.next {
+     right: 40%;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+
+
+.active, .dot:hover {
+    background-color: #717171;
+}
