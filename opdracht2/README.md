@@ -24,6 +24,8 @@ Dit principe beschrijft dat we een natuurlijke volgende stap voor de gebruikers 
 In mijn ontwerp heb ik hier rekening mee gehouden maar nog niet geimplementeerd. Dat komt doordat er nog maar één interactie mogelijk is. De slideshow naar links en rechts. 
 
 ## Resultaat
+Dit is het uiteindelijke resultaat geworden. Het is een simpele slideshow met vier vakantie foto's uit mexico. De gebruiker kan de pijltjes onderaan het scherm gebruiken om naar de volgende en de vorige slide te gaan. Ook kan de gebruiker de pijltjes op het toetsenbord hiervoor gebruiken. 
+
 ![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht2/img/Schermafbeelding%202019-05-22%20om%2010.35.35.png?raw=true "Screenshot 1")
 
-Dit is het uiteindelijke resultaat geworden. Het is een simpele slideshow met vier vakantie foto's uit mexico. De gebruiker kan de pijltjes onderaan het scherm gebruiken om naar de volgende en de vorige slide te gaan. Ook kan de gebruiker de pijltjes op het toetsenbord hiervoor gebruiken. 
+Als ik meer tijd voor de opdracht zou hebben had ik deze meer uit willen werken. Bijvoorbeeld de slideshow een perspectief geven of iets anders met de vormgeving doen. De slideshow is nu nog heel statisch. 
