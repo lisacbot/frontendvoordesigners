@@ -40,10 +40,6 @@ function populateHeader(jsonObj) {
 
 }
 
-function buttonHorror() {
-    document.getElementsByTagName('BODY')[0].style.backgroundColor = "blue";
-
-}
 var buttonEen = document.querySelector('button:nth-of-type(1)');
 buttonEen.onclick = function () {
     filter('Horror');

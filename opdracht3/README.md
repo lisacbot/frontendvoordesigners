@@ -82,10 +82,41 @@ Vervolgens heb ik een beetje css eraan toegevoegd. Dat gaf dit resultaat.
 ![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht3/v1/img/Schermafbeelding%202019-06-12%20om%2010.12.46.png?raw=true "Afbeelding 3")
 
 
-
-
-
 ## Versie 2.0
+Op dat moment laadde alle data in de pagina zodra de gebruiker op de pagina terecht kwam. De knoppen werkte echter nog niet. Na veel geprobeerd te hebben en hulp die ik heb gekregen is het gelukt. Elke button geeft het bijpassende genre met films weer aan de gebruiker. Het is gelukt door middel van de ze code:
+```
+var buttonEen = document.querySelector('button:nth-of-type(1)');
+buttonEen.onclick = function () {
+    filter('Horror');
+    document.getElementsByTagName('BODY')[0].style.backgroundColor = "red";
+}
+```
+Ik heb voor elke button deze functie aangemaakt. Hiermee heb ik de genres uit de api opgehaald.
+
+Vervolgens heb ik een andere functie geschreven met twee loops daarin. Hier worden uit alle films de genres opgehaald waar vervolgens de specifieke genres uit worden gehaald die ik net met de vorige functie had benoemd. Dat ziet er zo uit:
+
+```
+function filter(f) {
+    //document.getElementsByTagName('BODY')[0].style.backgroundColor = "yellow";
+    section.innerHTML = '';
+    var films = request.response;
+    for (var i = 0; i < films.length; i++) {
+        console.log(films[i].genres);
+        for (var j = 0; j < films[i].genres.length; j++) {
+            if (films[i].genres[j] == f) {
+                populateHeader(films[i]);
+            }
+        }
+    }
+}
+```
+
+
+Het ondwerp was op dat moment nog niet helemaal zoals ik het in gedachten had. Ik ben verder gaan werken aan de styling van het ontwerp en dat is z
+
+```
+
+```
 
 ## Testen
 ### Test 1
