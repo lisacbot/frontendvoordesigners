@@ -27,6 +27,7 @@ function showSlides(n) {
 }
 
 document.onkeydown = function(e) {
+    console.log(e);
         switch (e.keyCode) {
             case 37:
                 //left

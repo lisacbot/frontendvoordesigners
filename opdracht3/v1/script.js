@@ -1,19 +1,104 @@
-var uri = "https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies.json";
-
+var header = document.querySelector('header');
 var section = document.querySelector('section');
-console.log("section",section);
 
-
-console.log("loadimagesmetXHR");
+var requestURL = 'https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies.json';
 var request = new XMLHttpRequest();
-request.open('get', uri);
+request.open('GET', requestURL);
+
 request.responseType = 'json';
 request.send();
 
-request.addEventListener("load", function(){
-  var data = request.response;
-  console.log("request is geladen: ",request.response);
-  //er is data
-  //nu kun je iets doen
-  section.textContent = JSON.stringify(data);
-});
+request.onload = function () {
+    var films = request.response;
+    for (var i = 0; i < films.length; i++) {
+        populateHeader(films[i]);
+    }
+}
+
+function populateHeader(jsonObj) {
+    var myArticle = document.createElement('article');
+    var myH2 = document.createElement('h2');
+    var myUl = document.createElement('ul');
+    var myImg = document.createElement('img');
+
+
+    myH2.textContent = jsonObj['title'];
+    myImg.src = jsonObj['cover'];
+
+    myArticle.appendChild(myH2);
+    myArticle.appendChild(myImg);
+
+    var directors = jsonObj['directors'];
+    for (var i = 0; i < directors.length; i++) {
+        //console.log(actors[i].actor_name);
+
+        var myList = document.createElement('li');
+
+        myList.textContent = directors[i].name;
+
+        myUl.appendChild(myList);
+    }
+    myArticle.appendChild(myUl);
+    section.appendChild(myArticle);
+
+
+}
+
+function buttonHorror() {
+    document.getElementsByTagName('BODY')[0].style.backgroundColor = "blue";
+
+}
+var buttonEen = document.querySelector('button:nth-of-type(1)');
+buttonEen.onclick = function () {
+    filter('Horror');
+    document.getElementsByTagName('BODY')[0].style.backgroundColor = "red";
+}
+
+var buttonTwee = document.querySelector('button:nth-of-type(2)');
+buttonTwee.onclick = function () {
+    filter('Crime');
+    document.getElementsByTagName('BODY')[0].style.backgroundColor = "blue";
+}
+
+var buttonDrie = document.querySelector('button:nth-of-type(3)');
+buttonDrie.onclick = function () {
+    filter('Thriller');
+    document.getElementsByTagName('BODY')[0].style.backgroundColor = "green";
+}
+
+var buttonVier = document.querySelector('button:nth-of-type(4)');
+buttonVier.onclick = function () {
+    filter('Drama');
+    document.getElementsByTagName('BODY')[0].style.backgroundColor = "orange";
+}
+
+var buttonVijf = document.querySelector('button:nth-of-type(5)');
+buttonVijf.onclick = function () {
+    filter('Action');
+    document.getElementsByTagName('BODY')[0].style.backgroundColor = "grey";
+}
+
+var buttonZes = document.querySelector('button:nth-of-type(6)');
+buttonZes.onclick = function () {
+    filter('Adventure');
+    document.getElementsByTagName('BODY')[0].style.backgroundColor = "purple";
+}
+
+function filter(f) {
+    //document.getElementsByTagName('BODY')[0].style.backgroundColor = "yellow";
+    section.innerHTML = '';
+    var films = request.response;
+    for (var i = 0; i < films.length; i++) {
+        console.log(films[i].genres);
+        for (var j = 0; j < films[i].genres.length; j++) {
+            if (films[i].genres[j] == f) {
+                populateHeader(films[i]);
+            }
+            
+        }
+
+    }
+
+
+}
+
