@@ -65,7 +65,25 @@ function populateHeader(jsonObj) {
 }
 ```
 
-### De juiste data proberen in te laden
+Het resultaat is hieronder te vinden. Op de afbeelding is het niet goed te zien maar de de juiste data wordt in de pagina geladen.
+
+**Versie 1.0:**
+![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht3/v1/img/Schermafbeelding%202019-06-12%20om%2010.11.42.png?raw=true "Afbeelding 1")
+
+Dit is een screenshot van het 'Inspecteren' scherm, waar de elementen te zien zijn.
+
+**Versie 1.0:**
+![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht3/v1/img/Schermafbeelding%202019-06-12%20om%2010.11.42.png?raw=true "Afbeelding 1")
+
+
+Vervolgens heb ik een beetje css eraan toegevoegd. Dat gaf dit resultaat.
+
+**Versie 2.0:**
+![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht3/v1/img/Schermafbeelding%202019-06-12%20om%2010.12.46.png?raw=true "Afbeelding 2")
+
+
+
+
 
 ## Versie 2.0
 
