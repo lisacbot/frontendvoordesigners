@@ -111,12 +111,12 @@ function filter(f) {
 }
 ```
 
+Alle buttons werkten op dat moment!! Met elke button werden de films met de bijbehorende genre ingeladen.
 
-Het ondwerp was op dat moment nog niet helemaal zoals ik het in gedachten had. Ik ben verder gaan werken aan de styling van het ontwerp en dat is z
+Het ondwerp was op dat moment nog niet helemaal zoals ik het in gedachten had. Ik ben verder gaan werken aan de styling van het ontwerp en dat is er zo uit komen te zien:
 
-```
-
-```
+**Versie 2.0:**
+![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht3/v1/img/Schermafbeelding%202019-06-12%20om%2011.43.35.png?raw=true "Afbeelding 4")
 
 ## Testen
 ### Test 1
