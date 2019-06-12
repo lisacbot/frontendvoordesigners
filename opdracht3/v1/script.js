@@ -21,7 +21,6 @@ function populateHeader(jsonObj) {
     var myUl = document.createElement('ul');
     var myImg = document.createElement('img');
 
-
     myH2.textContent = jsonObj['title'];
     myImg.src = jsonObj['cover'];
 
@@ -30,12 +29,9 @@ function populateHeader(jsonObj) {
 
     var directors = jsonObj['directors'];
     for (var i = 0; i < directors.length; i++) {
-        //console.log(actors[i].actor_name);
-
         var myList = document.createElement('li');
 
         myList.textContent = directors[i].name;
-
         myUl.appendChild(myList);
     }
     myArticle.appendChild(myUl);

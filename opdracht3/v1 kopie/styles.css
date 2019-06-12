@@ -32,7 +32,7 @@ h2:hover {
 article {
     background-color: black;
     margin: 2em;
-/*    padding: 2em;*/
+    padding: 2em;
     display: grid;
     grid-template: 50% 50%;
 }
