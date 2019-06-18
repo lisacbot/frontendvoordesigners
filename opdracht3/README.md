@@ -138,8 +138,41 @@ De styling was op dat moment voor mij afgerond. Wel wilde ik heel graag verschil
 
 Ik ben begonnen met het opzoeken van de keyboard codes die ik wilde gaan gebruiken.
 
-Horror: H
-Crime: C
+Horror: H, Crime: C, Thriller: T, Drama: D, Action: A, Adventure: V
+
+Met dit stukje code heb ik de nummers aangeroepen waardoor ik deze in de console kon vinden:
+
+```
+document.addEventListener("keydown", function (event) {
+    console.log(event.which);
+})
+```
+
+Vervolgens heb ik een functie aangemaakt met daar binnen een if else statement. Ik maakte aan het begin de fout om voor elke toets een aparte functie aan te maken, maar dat werkte niet. Ik heb in één functie alle toetsen aangeroepen door middel van 'else if' te gebruiken. Dat ziet er als volgt uit:
+
+```
+document.onkeyup = function (e) {
+    if (e.which == 72) {
+        filter('Horror');
+        document.getElementsByTagName('BODY')[0].style.backgroundColor = "red";
+    } else if (e.which == 67) {
+        filter('Crime');
+        document.getElementsByTagName('BODY')[0].style.backgroundColor = "blue";
+    } else if (e.which == 84) {
+        filter('Thriller');
+        document.getElementsByTagName('BODY')[0].style.backgroundColor = "green";
+    } else if (e.which == 68) {
+        filter('Drama');
+        document.getElementsByTagName('BODY')[0].style.backgroundColor = "orange";
+    } else if (e.which == 65) {
+        filter('Action');
+        document.getElementsByTagName('BODY')[0].style.backgroundColor = "grey";
+    } else if (e.which == 86) {
+        filter('Adventure');
+        document.getElementsByTagName('BODY')[0].style.backgroundColor = "purple";
+    }
+}
+```
 
 ## Testen
 Op dat moment was mijn tweede versie af! Tijd om het te testen.. Ik heb twee korte tests uitgevoerd. 
