@@ -113,10 +113,33 @@ function filter(f) {
 
 Alle buttons werkten op dat moment!! Met elke button werden de films met de bijbehorende genre ingeladen.
 
-Het ondwerp was op dat moment nog niet helemaal zoals ik het in gedachten had. Ik ben verder gaan werken aan de styling van het ontwerp en dat is er zo uit komen te zien:
+Het ondwerp was op dat moment nog niet helemaal zoals ik het in gedachten had. Ik ben verder gaan werken aan de styling van het ontwerp. Ik heb elke pagina/genre een andere kleur gegeven. Ik vond dit erg leuk omdat de pagina's hierdoor speels over komen. Dit zijn de pagina's geworden:
 
-**Versie 2.0:**
-![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht3/v1/img/Schermafbeelding%202019-06-12%20om%2011.43.35.png?raw=true "Afbeelding 4")
+**Horror:**
+![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht3/v1/img/horror.png?raw=true "Afbeelding 4")
+
+**Crime:**
+![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht3/v1/img/crime.png?raw=true "Afbeelding 4")
+
+**Thriller:**
+![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht3/v1/img/thriller.png?raw=true "Afbeelding 4")
+
+**Drama:**
+![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht3/v1/img/drama.png?raw=true "Afbeelding 4")
+
+**Action:**
+![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht3/v1/img/action.png?raw=true "Afbeelding 4")
+
+**Adventure:**
+![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht3/v1/img/adventure.png?raw=true "Afbeelding 4")
+
+## Keyboard controls
+De styling was op dat moment voor mij afgerond. Wel wilde ik heel graag verschillende UI events verwerkt hebben waardoor je het ontwerp op verschillende manieren kan bedienen. Ik heb dit gedaan door middel van Keyboard controls. 
+
+Ik ben begonnen met het opzoeken van de keyboard codes die ik wilde gaan gebruiken.
+
+Horror: H
+Crime: C
 
 ## Testen
 Op dat moment was mijn tweede versie af! Tijd om het te testen.. Ik heb twee korte tests uitgevoerd. 
