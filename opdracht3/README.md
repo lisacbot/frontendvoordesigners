@@ -34,6 +34,10 @@ Dit principe beschrijft de beste manier waarop er visuele hiërarchie gecreëerd
 Met een goede visuele hierarchie van het ontwerp heb ik rekening gehouden. De titel van het document staat boven. Het geeft meer informatie aan de gebruiker over wat hij kan doen op de pagina. Vervolgens staan de buttons daar onder. Dat is waar de gebruiker zijn acties kan uitvoeren. De resulaten van die acties van de gebruiker (de films) staan weer daaronder.
 
 ## Breakdown schets
+![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht3/v1/img/breakdown1.jpg?raw=true "Afbeelding 3")
+
+![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht3/v1/img/breakdown2.jpg?raw=true "Afbeelding 3")
+
 
 ## Versie 1.0
 Het eerste stadium van het ontwerp maken hield in dat ik de juiste data ingeladen moets krijgen. Ik heb veel geprobeerd. Aan het begin lukte het mij niet om drie verschillende onderdelen (H2, img en p) in te laden van één bepaalde film (array). Ik kreeg bijvoorbeeld alleen maar alle titels onder elkaar, maar niet gecombineerd met de andere elementen. Ik heb hulp gekregen en het is mij daarna wel gelukt met dit stukje code: 
@@ -178,9 +182,20 @@ document.onkeyup = function (e) {
 Op dat moment was mijn tweede versie af! Tijd om het te testen.. Ik heb twee korte tests uitgevoerd. 
 
 ### Test 1
-Deze test heb ik uitgevoerd met Frederique Niemer. Ik heb haar eerste gevraagd wat haar favoriete genre was. Ze antwoorde; "Action". Vervolgens heb ik haar de opdracht gegeven om de films met dit genre te vinden.
+Deze test heb ik uitgevoerd met Frederique Niemer. Ik heb haar eerste gevraagd wat haar favoriete genre was. Ze antwoorde; "Thriller". Vervolgens heb ik haar de opdracht gegeven om de films met dit genre te vinden.
+
+**Context:**
+![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht3/v1/img/test_frederique.jpg?raw=true "Afbeelding 4")
 
 ### Resultaat
+Het lukte Frederique direct om dit genre te vinden. Bovenaan in klikte ze op de button 'Thriller' en daar stond de film met dat genre. 
+
 ### Test 2
+Deze test heb ik uitgevoerd met Iris de Graaf. Ik heb haar eerste gevraagd wat haar favoriete genre was. Ze antwoorde; "Action". Vervolgens heb ik haar de opdracht gegeven om de films met dit genre te vinden.
+
+**Context:**
+![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht3/v1/img/test_iris.jpg?raw=true "Afbeelding 4")
+
 ### Resultaat
+Iris had ook helemaal geen probleem met het vinden van het juiste genre. Ze zocht het juiste genre tussen de buttons en klikte deze aan. Ik heb op het einde gevraagd wat ze vond van de gekleurde pagina's. Ik wilde graag weten of dit te afleidend was. Echter gaf ze aan dit juist erg leuk te vinden. Hierdoor zit er meer variatie in en is het niet zo saai.
 
