@@ -67,18 +67,18 @@ function populateHeader(jsonObj) {
 
 Het resultaat is hieronder te vinden. Op de afbeelding is het niet goed te zien maar de de juiste data wordt in de pagina geladen.
 
-**Versie 1.0:**
+**Versie 1.1:**
 ![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht3/v1/img/Schermafbeelding%202019-06-12%20om%2010.11.42.png?raw=true "Afbeelding 1")
 
 Dit is een screenshot van het 'Inspecteren' scherm, waar de elementen te zien zijn.
 
-**Versie 1.0:**
+**Versie 1.2:**
 ![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht3/v1/img/Schermafbeelding%202019-06-12%20om%2011.31.33.png?raw=true "Afbeelding 2")
 
 
 Vervolgens heb ik een beetje css eraan toegevoegd. Dat gaf dit resultaat.
 
-**Versie 2.0:**
+**Versie 1.3:**
 ![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht3/v1/img/Schermafbeelding%202019-06-12%20om%2010.12.46.png?raw=true "Afbeelding 3")
 
 
@@ -119,7 +119,11 @@ Het ondwerp was op dat moment nog niet helemaal zoals ik het in gedachten had. I
 ![alt text](https://github.com/lisacbot/frontendvoordesigners/blob/master/opdracht3/v1/img/Schermafbeelding%202019-06-12%20om%2011.43.35.png?raw=true "Afbeelding 4")
 
 ## Testen
+Op dat moment was mijn tweede versie af! Tijd om het te testen.. Ik heb twee korte tests uitgevoerd. 
+
 ### Test 1
+Deze test heb ik uitgevoerd met Frederique Niemer. Ik heb haar eerste gevraagd wat haar favoriete genre was. Ze antwoorde; "Action". Vervolgens heb ik haar de opdracht gegeven om de films met dit genre te vinden.
+
 ### Resultaat
 ### Test 2
 ### Resultaat

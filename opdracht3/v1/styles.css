@@ -13,24 +13,24 @@ body {
     background-color: red;
 }
 
-header{
+header {
     margin-left: 2em;
     display: flex;
     flex-wrap: wrap;
-   
+
 }
 
 h2 {
     grid-column-start: 0;
-/*
+    /*
     margin-top: -0.3em;
     margin-left: -0.1em;
 */
     font-size: 38px;
     max-width: 5em;
     margin-left: 6em;
-    
-    
+
+
 }
 
 h2:hover {
@@ -46,7 +46,7 @@ section {
 article {
     background-color: black;
     margin: 2em;
-/*    padding: 2em;*/
+    /*    padding: 2em;*/
     display: grid;
     grid-template: 50% 50%;
     width: 30em;
@@ -55,12 +55,13 @@ article {
     position: relative;
 }
 
+
 img {
     height: 20em;
     grid-column-start: 1;
     position: absolute;
     border-radius: 2em 0 0 2em;
-    
+
 }
 
 
@@ -71,7 +72,7 @@ ul {
     list-style-type: none;
     position: absolute;
     top: 16.5em;
-    
+
 }
 
 li {
@@ -80,7 +81,7 @@ li {
 }
 
 button {
-        color: black;
+    color: black;
     width: 10em;
     height: 3em;
     border-radius: 2em;

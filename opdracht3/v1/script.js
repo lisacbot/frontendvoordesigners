@@ -86,11 +86,34 @@ function filter(f) {
             if (films[i].genres[j] == f) {
                 populateHeader(films[i]);
             }
-            
         }
-
     }
-
-
 }
 
+document.addEventListener("keydown", function (event) {
+    console.log(event.which);
+})
+
+
+
+document.onkeyup = function (e) {
+    if (e.which == 72) {
+        filter('Horror');
+        document.getElementsByTagName('BODY')[0].style.backgroundColor = "red";
+    } else if (e.which == 67) {
+        filter('Crime');
+        document.getElementsByTagName('BODY')[0].style.backgroundColor = "blue";
+    } else if (e.which == 84) {
+        filter('Thriller');
+        document.getElementsByTagName('BODY')[0].style.backgroundColor = "green";
+    } else if (e.which == 68) {
+        filter('Drama');
+        document.getElementsByTagName('BODY')[0].style.backgroundColor = "orange";
+    } else if (e.which == 65) {
+        filter('Action');
+        document.getElementsByTagName('BODY')[0].style.backgroundColor = "grey";
+    } else if (e.which == 86) {
+        filter('Adventure');
+        document.getElementsByTagName('BODY')[0].style.backgroundColor = "purple";
+    }
+}
